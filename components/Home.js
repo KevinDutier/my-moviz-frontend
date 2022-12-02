@@ -70,7 +70,7 @@ function Home() {
           <Button>♥ {likedMovies.length} movie(s)</Button>
         </Popover>
       </div>
-      <div className={styles.title}>LAST RELEASES</div>
+      <div className={styles.title}>LATEST RELEASES</div>
       <div className={styles.moviesContainer}>
         {movies}
       </div>
