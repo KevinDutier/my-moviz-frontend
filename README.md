@@ -1,8 +1,8 @@
-# My Movie - Frontend
+# MyMoviz - Frontend
 
-This project was made using React during my Web Developper coding bootcamp at La Capsule, Paris.
+Mymoviz is a project that was made using React during my Web Developper coding bootcamp at La Capsule, Paris.
 
-Mymoviz is a website that displays the latest big releases by communicating with the Movie Database's API.
+It is a website that displays the latest big releases by communicating with the Movie Database's API.
 
 It allows the user to rate, like, and add a view count to each film.
 
