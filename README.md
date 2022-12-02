@@ -1,20 +1,18 @@
 # My Movie - Frontend
 
-## Project Scope
+This project was made using React during my Web Developper coding bootcamp at La Capsule, Paris.
 
-This project has been done in the scope of my Web Development Coding Bootcamp at La Capsule.
-
-MyMoviz is a website that will allow you to display the latest films released offered by the API The Movie Database with the possibility of creating a wish list, placing a view counter and evaluating each of the films presented.
-The particularity of this app is that it is developed in React!
+Mymoviz is a website that displays the latest big releases by communicating with the Movie Database's API.
+It allows the user to rate, like, and add a view count to each film.
 
 API: [The Movie Database](https://www.themoviedb.org/)
 
-## Objectives
 
-Front: the objectives were to use basics features of React such as States, Effect Hooks, Components, Props and Inverse Data Flow.  
-Back: the aim was to get familiar with the Express framework, MVC architecture, editing routes to request web services.  
+## Overview
+![2](https://user-images.githubusercontent.com/111971458/205298594-034ac17b-457b-4f05-8bc2-b11a7dfd50a3.png)
 
-## Technologies
+
+## Technologies used
 
 Front:
 + Next.js
@@ -25,9 +23,20 @@ Back:
 + Express
 + JavaScript
 
-## Launch
 
-Back: https://github.com/jossbnd/my-moviz-backend  
-Front: https://github.com/jossbnd/my-moviz-frontend
+## Objectives
 
-Project is deployed on Vercel, you can visit it on: https://my-moviz-frontend-w7x2.vercel.app/
+Frontend:
++ states
++ hooks, useEffect
++ components
++ props
++ inverse data flow
+
+Backend:
++ familiarization with express
++ sending requests to APIs and web services
+
+
+## Deployment
+https://mymoviz.vercel.app/
