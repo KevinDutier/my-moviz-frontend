@@ -10,7 +10,8 @@ API: [The Movie Database](https://www.themoviedb.org/)
 
 
 ## Overview
-![2](https://user-images.githubusercontent.com/111971458/205298594-034ac17b-457b-4f05-8bc2-b11a7dfd50a3.png)
+
+https://user-images.githubusercontent.com/111971458/205488669-e5e6a1c2-febd-4d69-a91a-a3c5086efd93.mp4
 
 
 ## Technologies used
