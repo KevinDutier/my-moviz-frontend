@@ -5,7 +5,6 @@ import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 import Movie from './Movie';
 import 'antd/dist/antd.css';
 import styles from '../styles/Home.module.css';
-import { BACKEND_ADDRESS } from "../environmentVariables";
 
 function Home() {
   const [likedMovies, setLikedMovies] = useState([]);
@@ -36,15 +35,14 @@ function Home() {
   );
 
   // Movies list
-
   useEffect(() => {
-    fetch(`${BACKEND_ADDRESS}/movies`)
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND_ADDRESS}/movies`)
     .then(res => res.json())
     .then(data => {
       setMoviesData(data.movies.map(movie => {
         return {
           title: movie.title, 
-          poster: `https://image.tmdb.org/t/p/original/${movie.poster_path}`,
+          poster: `${process.env.NEXT_PUBLIC_POSTER_API}/t/p/original/${movie.poster_path}`,
           voteAverage: movie.vote_average,
           voteCount: movie.vote_count,
           overview: movie.overview.slice(0, 250) + "..."
