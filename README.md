@@ -1,3 +1,7 @@
+## Deployment
+https://mymoviz.vercel.app/
+
+
 # MyMoviz - Frontend
 
 Mymoviz is a project that was made using React during my Web Developper coding bootcamp at La Capsule, Paris. 
@@ -38,7 +42,3 @@ Frontend:
 Backend:
 + familiarization with express
 + sending requests to APIs and web services
-
-
-## Deployment
-https://mymoviz.vercel.app/
